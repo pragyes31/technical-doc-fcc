@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Muli&display=swap");
 body {
   font-family: sans-serif;
   padding: 0px;
@@ -18,6 +19,17 @@ body {
   width: calc(100% - 250px);
   height: 100vh;
   background-color: red;
+}
+
+#nav-header {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  margin: 15px 0px;
+  font-size: 22px;
+}
+
+#nav-link {
+  font-family: "Montserrat", sans-serif;
 }
 
 @media (max-width: 600px) {
