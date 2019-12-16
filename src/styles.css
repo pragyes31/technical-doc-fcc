@@ -11,12 +11,12 @@ body {
 
 #navbar {
   height: 100%;
-  width: 250px;
+  width: 300px;
   background-color: aqua;
 }
 
 #main-doc {
-  width: calc(100% - 250px);
+  width: calc(100% - 300px);
   height: 100vh;
   background-color: red;
 }
@@ -28,8 +28,19 @@ body {
   font-size: 22px;
 }
 
-#nav-link {
-  font-family: "Montserrat", sans-serif;
+.nav-links {
+  margin-top: 0px;
+}
+
+.nav-link {
+  font-family: "Muli", sans-serif;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  background-color: yellowgreen;
 }
 
 @media (max-width: 600px) {
@@ -40,6 +51,7 @@ body {
   #navbar {
     width: 100%;
     height: 200px;
+    overflow: scroll;
   }
 
   #main-doc {
