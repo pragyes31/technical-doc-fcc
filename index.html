@@ -100,18 +100,33 @@
       </section>
       <section id="hello-world" class="main-section">
         <header>Hello world</header>
-        <p>To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code:</p>
-      <div class="code">
-        function greetMe(yourName) { alert("Hello " + yourName); }<br /><br />
-        greetMe("World");</div>
+        <p>To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript
+          code:</p>
+        <div class="code">
+          function greetMe(yourName) { alert("Hello " + yourName); }<br /><br />
+          greetMe("World");</div>
       </section>
-      <section id="what-you-should-know" class="main-section">
-        <header>What you should know</header>
-        <p>This guide assumes you have the following basic background:</p>
+      <section id="variables" class="main-section">
+        <header>Variables</header>
+        <p>You use variables as symbolic names for values in your application. The names of variables, called
+          identifiers, conform to certain rules.
+          <p>A JavaScript identifier must start with a letter, underscore (_), or dollar sign ($); subsequent characters
+            can also be digits (0-9). Because JavaScript is case sensitive, letters include the characters "A" through
+            "Z" (uppercase) and the characters "a" through "z" (lowercase).</p>
+          <p> You can use ISO 8859-1 or Unicode letters such as å and ü in identifiers. You can also use the Unicode
+            escape sequences as characters in identifiers. Some examples of legal names are Number_hits, temp99, and
+            _name.</p>
+        </p>
       </section>
-      <section id="what-you-should-know" class="main-section">
-        <header>What you should know</header>
-        <p>This guide assumes you have the following basic background:</p>
+      <section id="declaring-variables" class="main-section">
+        <header>Declaring variables</header>
+        <p>You can declare a variable in three ways:</p>
+        <p>With the keyword var. For example,</p>
+        <div class="code">var x = 42.</div>
+        <p>This syntax can be used to declare both local and global variables.</p>
+        <p>By simply assigning it a value. For example,</p>
+        <div class="code">x = 42.</div>
+        <p>This always declares a global variable. It generates a strict JavaScript warning. You shouldn't use this variant.        </p>
       </section>
       <section id="what-you-should-know" class="main-section">
         <header>What you should know</header>
