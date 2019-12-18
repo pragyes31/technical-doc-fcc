@@ -14,6 +14,7 @@ body {
   width: calc(100% - 300px);
   height: auto;
   background-color: #fafafa;
+  margin-left: 300px;
 }
 
 section > header {
@@ -32,11 +33,12 @@ ul {
 }
 
 #navbar {
-  height: 100vh;
+  height: 100%;
   width: 300px;
   background-color: #e8f1f5;
   overflow: scroll;
   color: #005691;
+  position: fixed;
 }
 
 #nav-header {
@@ -67,6 +69,12 @@ ul {
   text-decoration: underline;
 }
 
+.code {
+  background-color: #eee;
+  margin: 30px;
+  padding: 10px;
+}
+
 @media (max-width: 600px) {
   #app {
     flex-direction: column;
@@ -79,5 +87,6 @@ ul {
 
   #main-doc {
     width: 100%;
+    margin: 0px;
   }
 }
