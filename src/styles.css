@@ -73,6 +73,7 @@ ul {
   background-color: #eee;
   margin: 30px;
   padding: 10px;
+  color: #666;
 }
 
 @media (max-width: 600px) {
