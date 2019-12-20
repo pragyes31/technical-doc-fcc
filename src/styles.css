@@ -27,8 +27,7 @@ section > header {
 
 p,
 ul {
-  margin-left: 50px;
-  margin-right: 25px;
+  margin: 10px 25px 10px 50px;
   color: #666;
 }
 
