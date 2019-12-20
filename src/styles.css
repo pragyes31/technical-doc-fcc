@@ -75,6 +75,13 @@ ul {
   color: #666;
 }
 
+pre {
+  background-color: #eee;
+  color: #666;
+  white-space: pre-wrap;
+  margin: 10px 25px 10px 50px;
+}
+
 @media (max-width: 600px) {
   #app {
     flex-direction: column;
