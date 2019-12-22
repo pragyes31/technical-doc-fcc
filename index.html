@@ -138,10 +138,10 @@
           block is local to the function (or global scope) that the block resides within. For example the following code
           will log 5, because the scope of x is the function (or global context) within which x is declared, not the
           block, which in this case is an if statement.</p>
-        <div class="code">if (true) { var x = 5; } console.log(x); // 5</div>
+          <code><pre>if (true) { var x = 5; } console.log(x); // 5</pre></code>
         <p>This behavior changes, when using the let declaration introduced in ECMAScript 2015.</p>
-        <div class="code">if (true) { let y = 5; } console.log(y); // ReferenceError: y is not
-          defined</div>
+        <code><pre>if (true) { let y = 5; } console.log(y); // ReferenceError: y is not
+            defined</pre></code>
       </section>
       <section id="global-variables" class="main-section">
         <header>Global variables</header>
@@ -157,7 +157,7 @@
         <p>You can create a read-only, named constant with the const keyword. The syntax of a constant identifier is the
           same as for a variable identifier: it must start with a letter, underscore or dollar sign and can contain
           alphabetic, numeric, or underscore characters.</p>
-        <div class="code">const PI = 3.14;</div>
+          <code><pre>const PI = 3.14;</pre></code>
         <p>A constant cannot change value through assignment or be re-declared while the script is running. It has to be
           initialized to a value.</p>
         <p>The scope rules for constants are the same as those for let block scope variables. If the const keyword is
@@ -165,12 +165,12 @@
         </p>
         <p>You cannot declare a constant with the same name as a function or variable in the same scope. For example:
         </p>
-        <div class="code">// THIS WILL CAUSE AN ERROR function f() {}; const f = 5; // THIS WILL
-          CAUSE AN ERROR ALSO function f() { const g = 5; var g; //statements
-          }</div>
+        <code><pre>// THIS WILL CAUSE AN ERROR function f() {}; const f = 5; // THIS WILL
+            CAUSE AN ERROR ALSO function f() { const g = 5; var g; //statements
+            }</pre></code>
         <p>However, object attributes are not protected, so the following statement is executed without problems.
         </p>
-        <div class="code">const MY_OBJECT = {"key": "value"}; MY_OBJECT.key = "otherValue"; </div>
+        <code><pre>const MY_OBJECT = {"key": "value"}; MY_OBJECT.key = "otherValue"; </pre></code>
       </section>
       <section id="data-types" class="main-section">
         <header>Data types</header>
