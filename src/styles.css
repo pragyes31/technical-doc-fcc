@@ -38,6 +38,7 @@ ul {
   overflow: scroll;
   color: #005691;
   position: fixed;
+  border: 2px solid #aaa;
 }
 
 #nav-header {
